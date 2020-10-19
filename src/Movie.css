@@ -1,0 +1,62 @@
+.movie {
+    position: relative;
+    margin: 20px;
+}
+
+.poster {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 100%;
+    max-width: 100px;    
+    background-color: white;    
+    box-shadow: 2px 2px 2px 1px rgba(112, 110, 110, 0.2);    
+    z-index: 0;
+}
+
+.movie_data{
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    height: 200px;    
+    box-shadow: 2px 2px 5px 1px rgba(112, 110, 110, 0.2);  
+    z-index: 1;
+    padding: 0 10px;
+}
+
+.movie_content {
+    padding-left: 130px;
+    padding-top: 20px;   
+    height: 140px;
+}
+
+.movie_title {
+    font-size: 11pt;    
+    padding: 0;
+    margin: 0;   
+    color:rgb(78, 93, 116); 
+    
+}
+
+.genres {   
+    font-size: 9pt;
+    padding: 3px 0;
+}
+
+.movie_summary {
+    padding-top: 7px;
+    font-size: 9pt;
+}
+
+hr {
+    background-color: rgb(225, 231, 235);
+    height: 1px;
+    border: none;    
+    width: 100%;
+    margin: 3px auto;
+}
+
+.movie_year {
+    color:rgb(125, 158, 173); 
+    font-size: 9pt;
+}
